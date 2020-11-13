@@ -35,6 +35,21 @@ To run the app, install it locally by cloning the GitHub repository, and in your
 ruby runner.rb
 ``` 
 
+## Features
+* Browse hikes based on length of time.
+* Have the app return a random hike for you.
+     
+     -random hike feature gif here-
+
+* See the listed hike details for each.
+* Save your favorite hikes for the future.
+    
+    -favorites feature gif here-
+
+* Use the Hike compatibility quiz to find the perfect hike!
+      
+    -quiz gif here-
+
 
 ## Code Examples
 ``` ruby
@@ -57,20 +72,6 @@ def ask_difficulty
 end
 ```
 
-## Features
-* Browse hikes based on length of time.
-* Have the app return a random hike for you.
-     
-     -random hike feature gif here-
-
-* See the listed hike details for each.
-* Save your favorite hikes for the future.
-    
-    -favorites feature gif here-
-
-* Use the Hike compatibility quiz to find the perfect hike!
-      
-    -quiz gif here-
 
 ## Status
 Project is finished with option to expand features and further refactor code.
