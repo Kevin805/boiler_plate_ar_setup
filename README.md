@@ -12,13 +12,13 @@
 * [License](#license)
 
 ## General Information
-Let's Hike is a CLI application that allows users to create a profile/login and search a database of listed hikes. Hikes range from easy to hard as well as short to long.  
-Let's Hike allows several ways to find the right hike. You can search specifically by the amount of time you have, 
-or allow the app to pick a random hike for you. To find the perfect hike tailored for you, try out our Hike compatibility quiz!
-All of these hikes can be saved in your 'favorites' to easily reference in the future.
+Let's Hike is a CLI application that allows users to create a login and search a database of listed hikes. Let's Hike gives you several ways to find the right hike. You can search specifically by the amount of time you're looking to hike, 
+or simply allow the app to pick a random hike for you. To find the perfect hike tailored for you, try out our Hike compatibility quiz! All of the hikes can be saved in your 'favorites' to easily reference in the future.
 
 
 ## Intro Video
+
+
 
 ## Technologies
 * Ruby - version 2.6.1
@@ -34,14 +34,12 @@ To run the app, install it locally by cloning the GitHub repository and typing:
 ruby runner.rb
 ```
 
-
 ## Code Examples
 ``` ruby
 def display_each_trail_name
     puts 'Here is our list of Colorado hiking trails:'
     Trail.all_trail_names.each do |trail_name|
     puts trail_name
-    end
   end
 end 
 ```
@@ -57,15 +55,15 @@ end
 ```
 
 ## Features
-* Browse Hikes based on length of time.
+* Browse hikes based on length of time.
 * Have the app return a random hike for you.
-* See Hike details
-* Save your favorite hikes
-* Use the Hike compatibility quiz to find the perfect hike.
+* See the listed hike details for each.
+* Save your favorite hikes for the future.
+* Use the Hike compatibility quiz to find the perfect hike!
 
 
 ## Status
-Project is: finished with option to expand features and further refactor code.
+Project is finished with option to expand features and further refactor code.
 
 
 ## Contact
