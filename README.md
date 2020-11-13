@@ -70,7 +70,7 @@ end
 
 * Use the Hike compatibility quiz to find the perfect hike!
       
-      -quiz gif here-
+    -quiz gif here-
 
 ## Status
 Project is finished with option to expand features and further refactor code.
